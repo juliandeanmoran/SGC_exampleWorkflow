@@ -1,8 +1,8 @@
-## SGC_exampleWorkflow
+# SGC_exampleWorkflow
 Example notebook for "time-nodal" spectral graph clustering of calcium imaging traces.
 
 
-# conceptual overview
+## conceptual overview
 
 - here we analyse a 135-neuron calcium imaging dataset for common patterns of activity
 	+ all 135 activity traces are collected from the same C. elegans whole-brain
@@ -23,7 +23,7 @@ Example notebook for "time-nodal" spectral graph clustering of calcium imaging t
 	+ some of Molter2018's post-processing steps have been ommitted; i was unable to follow them based on the paper's limited description
 
 
-# notes on the data
+## notes on the data
 
 - this particular C. elegans is an unc-13(s69) animal
 	+ meaning all chemical synaptic transmission between neurons has been perturbed; the animal is paralysed
@@ -33,20 +33,20 @@ Example notebook for "time-nodal" spectral graph clustering of calcium imaging t
 - notably, in this animal, neuromodulatory transmission also remains intact
 	+ this can yield more complex patterns of activity between neurons
 	+ to further interrogate these relationships, more standard analysis techniques may be used, e.g. cross-correlation
-	+ to further interrogate these relationships, more tailored techniques may be used that evaluate for curve-transmformation relationships
+	+ to further interrogate these relationships, more tailored techniques may be used that evaluate for curve-transformation relationships
 
 - most neurons in this dataset are unnamed
 	+ as such, they receive a name of the format Na#, for example Na29
 	+ some pharyngeal and retrovesicular neurons have been identified with high-confidence and have been named accordingly
 
 
-# setup
+## setup
 
 ```
 pip install -r requirements.txt
 ```
 
-# conclusion
+## conclusion
 
 - time-nodal SGC succeeds in elucidating novel neuronal assemblies in calcium imaging data
 	+ many of these are not easily discernible to the human eye by visually appraising the traces
