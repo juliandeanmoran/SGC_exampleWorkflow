@@ -9,7 +9,7 @@ Example notebook for "time-nodal" spectral graph clustering of calcium imaging t
 ## :brain: conceptual overview
 
 - here we analyse a 135-neuron calcium imaging dataset for common patterns of activity
-	+ all 135 activity traces are collected from the same C. elegans whole-brain
+	+ all 135 activity traces are collected from the same *C. elegans* whole-brain
 	+ all 135 traces have already been tracking-proofread and removed of motion, bleaching, and neighbor-invasion artifacts
 
 - our goal is to find time windows in which "neuronal assemblies" manifest
