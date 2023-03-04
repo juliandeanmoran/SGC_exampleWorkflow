@@ -31,6 +31,8 @@ Example notebook for "time-nodal" spectral graph clustering of calcium imaging t
 
 ## :brain: notes on the data
 
+- disclaimer: this is a first-step workflow, dedicated solely to data preprocessing and visualization
+
 - this particular C. elegans is an unc-13(s69) animal
 	+ meaning all chemical synaptic transmission between neurons has been perturbed; the animal is paralysed
 	+ meaning gap-junctional transmission remains intact; we expect to find patterns of coordinated neuroactivity with zero time-lag
