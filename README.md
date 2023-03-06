@@ -14,7 +14,7 @@ Author: Julian Moran
 	+ all 135 traces have already been tracking-proofread and removed of motion, bleaching, and neighbor-invasion artifacts
 
 - My goal is to find time windows in which "neuronal assemblies" manifest
-	+ that is to say, we are looking for instances when multiple neurons seem closely coordinated in their activity
+	+ that is to say, I am looking for instances when multiple neurons seem closely coordinated in their activity
 
 - Spectral graph clustering (SGC) is an adjacency-matrix technique that leverages the graph laplacian
 
