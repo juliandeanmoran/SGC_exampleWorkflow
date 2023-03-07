@@ -57,5 +57,5 @@ pip install -r requirements.txt
 	+ many of these are not easily discernible to the human eye by visually appraising the traces
 
 - In this workflow, I constrained the time points that were included in the adjacency matrix (see Jupyter notebook)
-	+ the analysis may benefit from including all time points, as I found that the more time points i include, the more patterns this workflow reveals
+	+ the analysis may benefit from including all time points, as I found that the more time points I include, the more patterns this workflow reveals
 	+ graph-drawing code that depends on NetworkX must be reconfigured, as NetworkX throws errors when drawing >500 nodes in the graph
