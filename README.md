@@ -9,7 +9,7 @@ Author: Julian Moran
 
 ## :brain: conceptual overview
 
-- Here I analyse a 135-neuron calcium imaging dataset for common patterns of activity
+- Here I analyze a 135-neuron calcium imaging dataset for common patterns of activity
 	+ all 135 activity traces are collected from the same *C. elegans* whole-brain
 	+ all 135 traces have already been tracking-proofread and removed of motion, bleaching, and neighbor-invasion artifacts
 
@@ -25,7 +25,7 @@ Author: Julian Moran
 
 - While Molter2018 provides a workable mathematical explanation...
 	+ the attached Jupyter notebook shows how to implement in Python many of the steps they describe
-	+ some of Molter2018's post-processing steps have been ommitted; i was unable to follow them based on the paper's limited description
+	+ some of Molter2018's post-processing steps have been ommitted; I was unable to follow them based on the paper's limited description
 
 
 ## :brain: notes on the data
