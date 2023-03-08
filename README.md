@@ -7,7 +7,7 @@ Author: Julian Moran
 	<img src="./example_output/SGC_KNNgraph_clustered.png", width="500" height="300">
 </p>
 
-## :brain: conceptual overview
+## :brain: Conceptual overview
 
 - Here I analyze a 135-neuron calcium imaging dataset for common patterns of activity
 	+ all 135 activity traces are collected from the same *C. elegans* whole-brain
@@ -28,7 +28,7 @@ Author: Julian Moran
 	+ some of Molter2018's post-processing steps have been ommitted; I was unable to follow them based on the paper's limited description
 
 
-## :brain: notes on the data
+## :brain: Notes on the data
 
 - This particular *C. elegans* is an unc-13(s69) animal
 	+ meaning all chemical synaptic transmission between neurons has been perturbed; the animal is paralysed
@@ -45,13 +45,13 @@ Author: Julian Moran
 	+ some pharyngeal and retrovesicular neurons have been identified with high-confidence and have been named accordingly
 
 
-## :seedling: setup
+## :seedling: Setup
 
 ```
 pip install -r requirements.txt
 ```
 
-## :brain: conclusion
+## :brain: Conclusion
 
 - Time-nodal SGC succeeds in elucidating novel neuronal assemblies in calcium imaging data
 	+ many of these are not easily discernible to the human eye by visually appraising the traces
