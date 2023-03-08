@@ -3,8 +3,8 @@ Example notebook for "time-nodal" spectral graph clustering of calcium imaging t
 Author: Julian Moran
 
 <p align = "center">
-	<img src="./example_output/SGC_hist_edges.png", width="500" height="300">
-	<img src="./example_output/SGC_KNNgraph_clustered.png", width="500" height="300">
+	<img src="./hist_edgeWeights.png", width="500" height="300">
+	<img src="./KNN_clustered.png", width="500" height="300">
 </p>
 
 
