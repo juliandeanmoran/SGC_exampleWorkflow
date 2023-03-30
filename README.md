@@ -31,7 +31,7 @@ pip install -r requirements.txt
 	+ each node is a 135-element array, where each element is the activity of a neuron during that time point
 	+ for a description of pre-processing steps, post-processing steps, and performance, see Molter 2018 (https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-018-0606-4)
 
-- While Molter2018 provides a workable mathematical explanation...
+- While Molter 2018 provides a workable mathematical explanation...
 	+ the attached Jupyter notebook shows how to implement in Python many of the steps they describe
 	+ some of Molter 2018's post-processing steps have been ommitted; I was unable to follow them based on the paper's limited description
 
