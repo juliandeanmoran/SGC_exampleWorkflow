@@ -24,7 +24,7 @@ pip install -r requirements.txt
 - My goal is to find time windows in which "neuronal assemblies" manifest
 	+ that is to say, I am looking for instances when multiple neurons seem closely coordinated in their activity
 
-- Spectral graph clustering (SGC) is an adjacency-matrix technique that leverages the graph laplacian
+- Spectral graph clustering (SGC) is an adjacency-matrix technique that leverages the graph Laplacian
 
 - "Time nodal" graph clustering uses time-points as the nodes in the adjacency matrix
 	+ each node is a time point, for example t=135 during the calcium imaging video
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 - While Molter2018 provides a workable mathematical explanation...
 	+ the attached Jupyter notebook shows how to implement in Python many of the steps they describe
-	+ some of Molter2018's post-processing steps have been ommitted; I was unable to follow them based on the paper's limited description
+	+ some of Molter 2018's post-processing steps have been ommitted; I was unable to follow them based on the paper's limited description
 
 
 ## Notes on the data
