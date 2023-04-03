@@ -59,8 +59,8 @@ pip install -r requirements.txt
 	+ many of these are not easily discernible to the human eye by visually appraising the traces
 
 <p align = "center">
-	<img src="./conclusion1.png", width="580" height="700">
-	<img src="./conclusion2.png", width="580" height="700">
+	<img src="./conclusion1.png", width="405" height="490">
+	<img src="./conclusion2.png", width="405" height="490">
 </p>
 
 - In this workflow, I constrained the time points that were included in the adjacency matrix (see Jupyter notebook)
