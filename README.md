@@ -58,6 +58,11 @@ pip install -r requirements.txt
 - Time-nodal SGC succeeds in elucidating novel neuronal assemblies in calcium imaging data
 	+ many of these are not easily discernible to the human eye by visually appraising the traces
 
+<p align = "center">
+	<img src="./conclusion1.png", width="580" height="700">
+	<img src="./conclusion2.png", width="580" height="700">
+</p>
+
 - In this workflow, I constrained the time points that were included in the adjacency matrix (see Jupyter notebook)
 	+ the analysis may benefit from including all time points, as I found that the more time points I include, the more patterns this workflow reveals
 	+ graph-drawing code that depends on NetworkX must be reconfigured, as NetworkX throws errors when drawing >500 nodes in the graph
